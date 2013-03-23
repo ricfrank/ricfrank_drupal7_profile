@@ -97,8 +97,6 @@ projects[ckeditor][version] = 1.12
 projects[ckeditor][type] = "module"
 projects[imce_wysiwyg][version] = 1.0
 projects[imce_wysiwyg][type] = "module"
-projects[jquery_update][version] = 2.3
-projects[jquery_update][type] = "module"
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][type] = "module"
 projects[views][version] = 3.5
@@ -117,10 +115,19 @@ projects[xmlsitemap][type] = "module"
   
 ; Libraries
 ; ---------
+
+; jquery
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
 libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"
 
+; Modernizr
+libraries[modernizr][download][type] = "file"
+libraries[modernizr][download][url] = "http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 
-
+; CKEditor
+libraries[ckeditor][download][type]= "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1/ckeditor_4.1_standard.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
