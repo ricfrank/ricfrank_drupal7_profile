@@ -1,5 +1,5 @@
 name = ricfrank_drupal_profile
-description = Install with commonly used features pre-configured.
+description = Install drupal with common useful modules
 version = VERSION
 core = 7.x
 dependencies[] = block
